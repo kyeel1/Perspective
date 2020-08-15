@@ -24,6 +24,10 @@ namespace Perspective.Client
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<PerspectiveDBContext>(options =>
+                {
+                options.UseSqlServer(Configuration.GetConnectionString("mssql"));
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +45,7 @@ namespace Perspective.Client
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            
 
             app.UseRouting();
 

@@ -13,4 +13,10 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Perspective.Storing\Perspective.Storing.csproj" />
+    <ProjectReference Include="..\Perspective.Domain\Perspective.Domain.csproj" />
+    <ProjectReference Include="..\Perspective.Client\Perspective.Client.csproj" />
+  </ItemGroup>
+
 </Project>
