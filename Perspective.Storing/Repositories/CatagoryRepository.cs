@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using Perspective.Domain;
-using Perspective.Storing;
 
-namespace PizzaStore.Storing
+namespace Perspective.Storing
 {
     public class CatagoryRepository : ARepository<CatagoryModel>
     {

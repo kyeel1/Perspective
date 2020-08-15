@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Perspective.Storing;
+using Perspective.Domain;
 
-namespace PizzaStore.Storing
+namespace Perspective.Storing
 {
     public class MessageRepository : ARepository<MessageModel>
     {
