@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Perspective.Models;
+using Perspective.Client.Models;
 
-namespace Perspective.Controllers
+namespace Perspective.Client.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Perspective.Models
+namespace Perspective.Client.Models
 {
     public class ErrorViewModel
     {
